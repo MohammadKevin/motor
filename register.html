@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Motorsport ID</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <i class="fas fa-shopping-cart"></i>
+        <span>Motorsport ID</span>
+    </div>
+    <div class="navbar-right">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </div>
+</nav>
+
+<div class="register-container">
+    <div class="register-box">
+        <h2>Create an Account</h2>
+        <form onsubmit="redirectToLogin(event)">
+            <input type="text" name="fullname" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="username" placeholder="Username" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Motorsport ID. All rights reserved.</p>
+</footer>
+
+<script>
+    function redirectToLogin(event) {
+        event.preventDefault();
+        const username = event.target.username.value;
+        const password = event.target.password.value;
+
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+
+    alert("Registration successful! Redirecting to login page...");
+    window.location.href = "login.html";
+    }
+</script>
+</body>
+</html>
