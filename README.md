@@ -18,9 +18,9 @@ A responsive automotive dealership landing page presenting motorcycle specificat
 ---
 
 ## ✨ Key Features
-- ⚡ **Vehicle showcase with specifications and price estimates**: Vehicle showcase with specifications and price estimates
-- ⚡ **Customer registration and login interface**: Customer registration and login interface
-- ⚡ **Responsive layout for mobile and desktop screens**: Responsive layout for mobile and desktop screens
+- Vehicle showcase with specifications and price estimates
+- Customer registration and login interface
+- Responsive layout for mobile and desktop screens
 
 ---
 
