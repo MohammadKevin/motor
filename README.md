@@ -12,26 +12,26 @@
 
 ---
 
-## 📌 Overview
+## Overview
 A responsive automotive dealership landing page presenting motorcycle specifications, financing simulation cards, and customer test-ride registrations.
 
 ---
 
-## ✨ Key Features
+## Key Features
 - Vehicle showcase with specifications and price estimates
 - Customer registration and login interface
 - Responsive layout for mobile and desktop screens
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Structure**: HTML5
 - **Styling**: CSS3
 - **Script**: Vanilla JavaScript
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 motor/
 ├── index.html          # Landing page
@@ -42,7 +42,7 @@ motor/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the required runtimes and tools installed on your machine:
@@ -58,7 +58,7 @@ cd motor
 
 ---
 
-## 👤 Author
+## Author
 **Mohammad Kevin Arif Rudianto**
 - **GitHub:** [@MohammadKevin](https://github.com/MohammadKevin)
 - **Portfolio:** [portfolio-mohammadkevin.vercel.app](https://portfolio-mohammadkevin.vercel.app)
@@ -67,9 +67,9 @@ cd motor
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 <div align="center">
-⭐️ If you found this repository useful, please consider giving it a star!
+If you found this repository useful, please consider giving it a star!
 </div>
